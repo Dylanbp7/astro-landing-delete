@@ -1,8 +1,9 @@
 ---
-import HeroSecondary from "../components/HeroSecondary.astro"
+import Hero from "../components/Hero.astro"
 import Layout from "../layouts/Layout.astro"
+import Experience from '../components/Experience.astro'
 ---
 <Layout title="CV & Portfolio Dylan Batista">
-    <HeroSecondary title= 'CV & Portfolio';
-    description='+3 años vinculado al marketing de contenidos, diseño UX/UI y desarrollo web.'/>
+    <Hero title="Project Manager & Team Leader" description="+3 años vinculado al marketing de contenidos, diseño UX/UI y desarrollo web." CTA="Descargar CV" CTAUrl="/"/>
+    <Experience/>
 </Layout>
