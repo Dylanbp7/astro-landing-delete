@@ -1,0 +1,22 @@
+[{
+    "id":"01",
+    "question":"¿A qué te dedicas?",
+    "answer":"Soy líder de un equipo de Marketing y Diseño en una ",
+    "url":"startup sanrafaelina."
+},
+{
+    "id":"02",
+    "question":"¿Cuánto tiempo llevas en tu puesto?",
+    "answer":"En 2024 cumpliré un año siendo líder de equipo, pero en la industria llevo casi tres. "
+},
+{
+    "id":"03",
+    "question":"¿Cuantas personas hay en tu equipo?",
+    "answer":"Mi equipo creativo cuenta con 4 personas. Fernando, Paolo, Sol y yo."
+},
+{
+    "id":"04",
+    "question":"¿Para qué debería contactarte?",
+    "answer":"Si te interesa discutir temas relacionados a la tecnología y a la gestión de equipos junto a mí, tendrás mi correo o teléfono abierto."
+}
+]

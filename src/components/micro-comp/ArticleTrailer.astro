@@ -1,10 +1,10 @@
 ---
 import articulos from '../../config/articulos.json'
 ---
-<div class="flex flex-wrap gap-5">
+<div class="flex items-center flex-col flex-wrap gap-5">
     {
         articulos.slice(0, 3).map((articulo) => (
-        <article class="flex flex-col h-auto justify-between items-stretch max-w-sm p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <article class="flex flex-col h-auto justify-between items-stretch max-w-4xl p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div class="flex justify-between items-center mb-5 text-gray-500">
         <span class="bg-gray-600 text-gray-200 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
             {articulo.type}

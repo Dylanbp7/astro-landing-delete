@@ -1,0 +1,13 @@
+---
+import FAQ from "./micro-comp/FAQ.astro";
+import HeaderPopUp from "./micro-comp/HeaderPopUp.astro";
+---
+<section>
+    <div class="flex flex-col justify-center items-center py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <h2 class="max-w-[60rem] text-center m-2 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Preguntas frecuentes</h2>
+        <div class="max-w-2xl pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700">
+            <FAQ url="https://reyesoft.com/" ></FAQ>
+        </div>
+        <HeaderPopUp/>
+    </div>
+  </section>
