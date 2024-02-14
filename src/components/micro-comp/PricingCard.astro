@@ -1,0 +1,22 @@
+---
+import PricingItemInclude from "./PricingItemInclude.astro"
+import PricingItemNOInclude from "./PricingItemNoInclude.astro"
+---
+
+
+<div class="w-full max-w-96 p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+    <div class="flex items-baseline justify-center text-gray-900 dark:text-white">
+    <span class="text-3xl font-semibold">U$S</span>
+    <span class="text-4xl font-extrabold tracking-tight pl-1 ">600</span>
+    <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/ mes</span>
+    </div>
+    <ul role="list" class="space-y-5 mt-7">
+        <PricingItemInclude item="Desarrollo de estrategias de crecimiento 360°"/>
+        <PricingItemInclude item="Optimización de procesos"/>
+        <PricingItemInclude item="Investigación de mercado y necesidades de clientes"/>
+        <PricingItemInclude item="Priorización de características y hoja de ruta del producto"/>
+        <PricingItemInclude item="Seguimiento y capacitación de equipos"/>
+        <PricingItemNOInclude item="Disponibilidad a tiempo completo"/>
+        <PricingItemNOInclude item="Modalidad presencial"/>
+    </ul>
+</div>

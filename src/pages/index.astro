@@ -2,10 +2,18 @@
 import Layout from '../layouts/Layout.astro'
 import Hero from '../components/Hero.astro'
 import BlogTrailer from '../components/BlogTrailer.astro'
-import FAQmodule from '../components/FAQmodule.astro'
+import Pricing from '../components/Pricing.astro'
+import About from '../components/About.astro'
+import Ventas from '../components/Ventas.astro'
+import BannerHerramientas from '../components/BannerHerramientas.astro'
 ---
 <Layout title='Inicio'>
-    <Hero title= 'Organizaré tus objetivos y conseguiré tus metas de negocio' description='+3 años de experiencia en marketing, diseño y desarrollo web a tu servicio.' CTA='Más información' CTAUrl='../cv'></Hero>
+    <Hero title= 'Organizaré tus objetivos y conseguiré tus metas de negocio' description='+3 años de experiencia en marketing, diseño y desarrollo web a tu servicio.'>
+    </Hero>
+    <Pricing></Pricing>
+    <Ventas></Ventas>
+    <About/>
+    <BannerHerramientas></BannerHerramientas>
     <BlogTrailer/>
-    <FAQmodule></FAQmodule>
+    
 </Layout>

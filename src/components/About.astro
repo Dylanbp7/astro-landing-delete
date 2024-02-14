@@ -1,0 +1,20 @@
+---
+import { Image } from 'astro:assets';
+import AvatarImage from '../img/profile-mid.png'
+
+import Experience from '../components/Experience.astro'
+
+---
+
+    <section class="dark:bg-gray-900">
+        <div class="gap-8 justify-center items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <div class="flex justify-center">
+                <Image src={AvatarImage} class=" md:size-96 size-80 rounded-lg hidden dark:block" alt="avatar-dylan" />
+            </div>
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 max-w-[28rem] text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Soy Dylan, Líder Creativo</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Tengo 23 años y trabajo en una startup sanrafaelina. Me apasiona la gestión del tiempo, productividad y el diseño de experiencia e interfaz. También me dedico al marketing digital orgánico y pago. <br><br> Mi objetivo profesional más importante es descubrir cómo funciona la industria tecnológica a gran escala.</p>
+                <Experience></Experience>
+            </div>
+        </div>
+    </section>
